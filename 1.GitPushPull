@@ -1,0 +1,64 @@
+Link:https://chat.openai.com/share/c3df00ea-987c-4c7f-b561-3fd0e0e57908
+
+Git Commands: Push/Pull HTML.
+April 27, 2024
+Demonstrate use of git commands to push and pull 3 html files from Github account
+ChatGPT
+Sure, I can help with that! Here's a step-by-step guide on how to push and pull HTML files to and from a GitHub repository using Git commands:
+
+Prerequisites:
+Have Git installed on your computer.
+Have a GitHub account and a repository created.
+Step 1: Clone the Repository
+First, clone the repository to your local machine using the git clone command. Replace <repository_url> with the actual URL of your GitHub repository.
+
+bash
+Copy code
+git clone <repository_url>
+Step 2: Create and Edit HTML Files
+Navigate to the cloned repository on your local machine using the terminal. Create three HTML files (e.g., file1.html, file2.html, file3.html) and edit them as needed using a text editor.
+
+Step 3: Add and Commit Changes
+Add the newly created and edited HTML files to the staging area using the git add command. Replace <file1.html> with the actual file names.
+
+bash
+Copy code
+git add file1.html file2.html file3.html
+Next, commit the changes with a descriptive message using the git commit command.
+
+bash
+Copy code
+git commit -m "Added and modified HTML files"
+Step 4: Push Changes to GitHub
+Push the committed changes from your local machine to the GitHub repository using the git push command.
+
+bash
+Copy code
+git push origin main
+Replace main with the branch name if you are using a branch other than the default main branch.
+
+Step 5: Pull Changes from GitHub (Optional)
+If changes have been made to the repository by others and you want to pull those changes to your local machine, use the git pull command.
+
+bash
+Copy code
+git pull origin main
+Replace main with the branch name if needed.
+
+Summary:
+git clone <repository_url>: Clone the repository to your local machine.
+git add <file_names>: Add HTML files to the staging area.
+git commit -m "Commit message": Commit changes with a descriptive message.
+git push origin main: Push changes to the GitHub repository.
+git pull origin main: Pull changes from the GitHub repository (optional).
+These commands should help you manage HTML files in your GitHub repository effectively!
+
+Sign up to chat
+Report content
+|
+Terms of use
+|
+Privacy policy
+|
+
+?
