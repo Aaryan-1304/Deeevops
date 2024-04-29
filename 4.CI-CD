@@ -1,3 +1,8 @@
+Steps:
+1.create a jenkins pipeline project 
+2. paste the below code in pipeline script and save (you can replace github url with your own repo)
+3.build the pipeline
+CODE:
 pipeline {
     agent any
 
